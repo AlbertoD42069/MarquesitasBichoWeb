@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { TextStatics } from '../Resources/TextStatics.js';
+import { SectionTitle } from './SectionTitle.js';
 
 export default function SuggestionsBicho() {
-  return (
-    <div>
-      
-    </div>
+  const title = TextStatics.suggestions
+  const [titleSecion, setTitleSection] = useState(title);
+  console.log('----'+titleSecion);
+    return (
+    <>
+      <SectionTitle titleSecion={titleSecion}/>
+    </>
   )
 }
