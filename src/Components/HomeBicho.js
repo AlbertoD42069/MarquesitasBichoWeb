@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import MenuBicho from './MenuBicho.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 export default function HomeBicho() {
   return (
     <div>

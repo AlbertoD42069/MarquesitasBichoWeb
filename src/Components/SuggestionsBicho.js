@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { TextStatics } from '../Resources/TextStatics.js';
 import { SectionTitle } from './SectionTitle.js';
+import SectionBody from './SectionBody.js';
 
 export default function SuggestionsBicho() {
   const title = TextStatics.suggestions
@@ -9,6 +10,7 @@ export default function SuggestionsBicho() {
     return (
     <>
       <SectionTitle titleSecion={titleSecion}/>
+      <SectionBody/>
     </>
   )
 }
